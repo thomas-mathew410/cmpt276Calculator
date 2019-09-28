@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Coursys-Formula Tester</title>
+  <!--
+      <meta name="description" content="The HTML5 Herald">
+      <meta name="author" content="SitePoint">
+    -->
+    <link rel="stylesheet" href="stylesheets/calculator.css?v=1.0">
+  <script type="text/javascript" src="scripts/calculator.js" defer></script>
+
+</head>
+
+<body>
+    <div class="BlackBorderTop"></div><div class="mainBody">
+        
+        <h1>Grade Calculator</h1>
+        <div class="greyPart">
+
+            <h2>Activities</h2>
+            <p>Give grades to the numeric activites.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Short Name
+                        </th>
+                        <th>
+                            Weight
+                        </th>
+                        <th>
+                            Grade
+                        </th>
+                        <th>
+                            Percent
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Activity 1
+                        </td>
+                        <td>
+                            A1
+                        </td>
+                        <td>
+                            <input class="textArea" type="textFields" id="act1_weight"/>
+                        </td>
+                        <td>
+                            <input class="textArea" type="textFields" id="act1_numerator"/> / <br>
+                            <input class="textArea" type="textFields" id="act1_denominator"/>
+                        </td>
+                        <td>
+                            <p class="percent" id="act1_percent"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Activity 2
+                        </td>
+                        <td>
+                            A2
+                        </td>
+                        <td>
+                            <input class="textArea" type="textFields" id="act2_weight"/>
+                        </td>
+                        <td>
+                            <input class="textArea" type="textFields" id="act2_numerator"/> / <br>
+                            <input class="textArea" type="textFields" id="act2_denominator"/>
+                        </td>
+                        <td>
+                            <p class="percent" id="act2_percent"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Activity 3
+                        </td>
+                        <td>
+                            A3
+                        </td>
+                        <td>
+                            <input class="textArea" type="textFields" id="act3_weight"/>
+                        </td>
+                        <td>
+                            <input class="textArea" type="textFields" id="act3_numerator"/> / <br>
+                            <input class="textArea" type="textFields" id="act3_denominator"/>
+                        </td>
+                        <td>
+                            <p class="percent" type id="act3_percent"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                            <td>
+                                Activity 4
+                            </td>
+                            <td>
+                                A4
+                            </td>
+                            <td>
+                                <input class="textArea" type="textFields" id="act4_weight"/>
+                            </td>
+                            <td>
+                                <input class="textArea" type="textFields" id="act4_numerator"/> / <br>
+                                <input class="textArea" type="textFields" id="act4_denominator"/>
+                            </td>
+                            <td>
+                                <p class="percent" type id="act4_percent"></p>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <p id="result">Result</p><p id="grade_Result"> </p>
+            <div class="submitButtons">
+                <button type="submit" id="weighted_result">WEIGHTED</button>
+                <button type="submit" id="mean_result">MEAN</button>
+                <button type="submit" id="reset_Fields">RESET</button>
+            </div> <!--submitButtons-->
+        </div><!--greyPart-->
+        </div> <!--mainBody-->
+        <div class="BlackBorderBot"></div>
+            
+            <!-- <script src="js/scripts.js"></script> -->
+        </body>
+</html>
